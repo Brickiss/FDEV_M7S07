@@ -19,7 +19,7 @@ public class Coletor {
         private String name;
         private String description;
 
-        public Coletor() {
+        public Coletor(String name, String description) {
             this.id = sequence++;
         }
 

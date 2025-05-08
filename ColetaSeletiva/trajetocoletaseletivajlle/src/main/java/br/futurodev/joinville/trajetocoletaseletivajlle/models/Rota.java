@@ -22,7 +22,7 @@ import java.util.List;
         private String coverageArea;
         private BigDecimal efficiencyPercentage;
 
-        public Rota() {
+        public Rota(String descricao, String areaAbrangencia, Double percentualEficiencia) {
             this.id = sequence++;
         }
 
@@ -30,5 +30,8 @@ import java.util.List;
             rotas.add(rota);
             return rota;
         }
+
+    public static void addRota(Rota novaRota) {
     }
+}
 
