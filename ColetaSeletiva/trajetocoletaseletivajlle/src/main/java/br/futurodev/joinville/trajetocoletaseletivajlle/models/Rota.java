@@ -31,7 +31,8 @@ import java.util.List;
             return rota;
         }
 
-    public static void addRota(Rota novaRota) {
+    public static Rota addRota(Rota novaRota) {
+        return novaRota;
     }
 }
 
