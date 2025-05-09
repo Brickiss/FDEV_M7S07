@@ -11,7 +11,7 @@ import java.util.List;
 @Setter
 public class Coletor {
         @Getter
-        private static final List<Coletor> collectors = new ArrayList<>();
+        private static final List<Coletor> coletores = new ArrayList<>();
         private static Long sequence = 1L;
 
         @Setter(AccessLevel.NONE)
@@ -23,9 +23,9 @@ public class Coletor {
             this.id = sequence++;
         }
 
-        public static Coletor addColetor(Coletor collector) {
-            collectors.add(collector);
-            return collector;
+        public static Coletor addColetor(Coletor coletor) {
+            coletores.add(coletor);
+            return coletor;
         }
 
         @Override
