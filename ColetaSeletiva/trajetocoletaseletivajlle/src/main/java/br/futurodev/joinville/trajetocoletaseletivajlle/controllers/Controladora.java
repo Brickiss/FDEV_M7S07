@@ -1,32 +1,32 @@
-package br.futurodev.joinville.trajetocoletaseletivajlle.controllers;
+// package br.futurodev.joinville.trajetocoletaseletivajlle.controllers;
 
-import br.futurodev.joinville.trajetocoletaseletivajlle.models.Coletor;
-import br.futurodev.joinville.trajetocoletaseletivajlle.services.ColetorService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+// import br.futurodev.joinville.trajetocoletaseletivajlle.models.Coletor;
+// import br.futurodev.joinville.trajetocoletaseletivajlle.services.ColetorService;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+// import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-@RestController
-@RequestMapping("coletores")
+// import java.util.List;
+// @RestController
+// @RequestMapping("coletores")
 
-public class Controladora {
-    @Autowired
-    private ColetorService service;
+// public class Controladora {
+//     @Autowired
+//     private ColetorService service;
 
-    @GetMapping
-    public List<Coletor> get() {
-        return service.findAll();
-    }
+//     @GetMapping
+//     public List<Coletor> get() {
+//         return service.findAll();
+//     }
 
-    @PostMapping
-    public Coletor post(@RequestBody Coletor collector) {
-        return service.create(collector);
-    }
+//     @PostMapping
+//     public Coletor post(@RequestBody Coletor collector) {
+//         return service.create(collector);
+//     }
 
-}
+// }
 
