@@ -28,7 +28,11 @@ public class Coletor {
             return coletor;
         }
 
-        @Override
+    public static List<Coletor> getCollectors() {
+        return List.of();
+    }
+
+    @Override
         public String toString() {
             return "Coletor{" +
                     "id=" + id +
